@@ -10,6 +10,7 @@ import dto.MovieSearchResponse
 import exception.MovieSearchException
 import khttp.responses.Response
 import org.json.JSONArray
+import org.json.JSONObject
 import org.slf4j.LoggerFactory
 
 class MovieService {
@@ -44,21 +45,21 @@ class MovieService {
         }
 
         val resp = mapper.readValue<MovieSearchResponse>(result.jsonObject.toString())
-        val jsonArray = JSONArray(resp.results?.subList(0, if (resp.results.size > 8) 9 else resp.results.size) as Collection<Any>?)
+        val jsonArray = JSONArray(resp.results?.subList(0, if (resp.results.size > 10) 10 else resp.results.size) as Collection<Any>?)
 
         var i = 0;
-        val fEResultArray = ArrayList<String>()
+        val feJSONArray = JSONArray()
         for (jsonObj in jsonArray) {
-            fEResultArray.add("{ \"movie_id\" : \"" + resp.results?.get(index = i)?.id.toString() + "\"," +
-                    "\"title\" : \"" + resp.results?.get(index = i)?.title.toString() + "\"," +
-                    "\"poster_image_url\" : \"" + "https://image.tmdb.org/t/p/w200/" + resp.results?.get(index = i)?.poster_path.toString() + "\"," +
-//                           "\"popularity_summary\" : \"" + (resp.results?.get(index = i)?.popularity ?: 0).toString().toFloat() / (resp.results?.get(index = i)?.vote_count ?: 0).toString().toFloat() + "\"," +
-                    "\"popularity_summary\" : \"" + resp.results?.get(index = i)?.popularity.toString() + " out of " + resp.results?.get(index = i)?.vote_count.toString() + "\"," +
-                    "\"overview\" : \"" + resp.results?.get(index = i)?.overview.toString() + "\"}"
-            )
+            val feJSONObject = JSONObject()
+            feJSONObject.put("movie_id", resp.results?.get(index = i)?.id.toString())
+            feJSONObject.put("title", resp.results?.get(index = i)?.title.toString())
+            feJSONObject.put("poster_image_url", "https://image.tmdb.org/t/p/w200/" + resp.results?.get(index = i)?.poster_path.toString())
+            feJSONObject.put("popularity_summary", resp.results?.get(index = i)?.popularity.toString() + " out of " + resp.results?.get(index = i)?.vote_count.toString())
+            feJSONObject.put("overview", resp.results?.get(index = i)?.overview.toString())
+            feJSONArray.put(feJSONObject)
             i += 1;
         }
-        return fEResultArray.toString();
+        return feJSONArray.toString();
     }
 }
 

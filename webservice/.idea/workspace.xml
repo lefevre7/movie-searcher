@@ -29,7 +29,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="94">
@@ -51,13 +51,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieService.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MovieService.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/service/MovieService.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="386">
+              <caret line="47" column="89" lean-forward="false" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
               <folding>
-                <element signature="e#17#411#0" expanded="true" />
+                <element signature="e#17#438#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -547,9 +547,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.config" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/kotlin/exception/MovieSearchException.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/service/MovieService.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/routes/MovieSearchRoute.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/service/MovieService.kt" />
       </list>
     </option>
   </component>
@@ -567,7 +567,7 @@
     <option name="x" value="508" />
     <option name="y" value="400" />
     <option name="width" value="1727" />
-    <option name="height" value="812" />
+    <option name="height" value="934" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -984,15 +984,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547341941526</updated>
-      <workItem from="1547341945105" duration="30325000" />
+      <workItem from="1547341945105" duration="31607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30325000" />
+    <option name="totallyTimeSpent" value="31607000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="508" y="400" width="1727" height="812" extended-state="0" />
+    <frame x="508" y="400" width="1727" height="934" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1006,9 +1006,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39913544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43504903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1037,20 +1037,67 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/service/MovieService.kt</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>val feJSONArray = JSONArray()
+val feJSONObject = JSONObject()
+        for (jsonObj in jsonArray) {
+            feJSONObject.put(&quot;movie_id&quot;, resp.results?.get(index = i)?.id.toString())
+            feJSONObject.put(&quot;title&quot;, resp.results?.get(index = i)?.title.toString())
+            feJSONObject.put(&quot;poster_image_url&quot;, &quot;https://image.tmdb.org/t/p/w200/&quot; + resp.results?.get(index = i)?.poster_path.toString())
+            feJSONObject.put(&quot;popularity_summary&quot;, resp.results?.get(index = i)?.popularity.toString() + &quot; out of &quot; + resp.results?.get(index = i)?.vote_count.toString())
+            feJSONObject.put(&quot;overview&quot;, resp.results?.get(index = i)?.overview.toString())
+            fEResultArray.add(&quot;{ \&quot;movie_id\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.id.toString() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;title\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.title.toString() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;poster_image_url\&quot; : \&quot;&quot; + &quot;https://image.tmdb.org/t/p/w200/&quot; + resp.results?.get(index = i)?.poster_path.toString() + &quot;\&quot;,&quot; +
+//                           &quot;\&quot;popularity_summary\&quot; : \&quot;&quot; + (resp.results?.get(index = i)?.popularity ?: 0).toString().toFloat() / (resp.results?.get(index = i)?.vote_count ?: 0).toString().toFloat() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;popularity_summary\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.popularity.toString() + &quot; out of &quot; + resp.results?.get(index = i)?.vote_count.toString() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;overview\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.overview.toString() + &quot;\&quot;}&quot;
+            )
+            feJSONArray.put(feJSONObject)
+            i += 1;
+            
+        }
+    feJSONArray</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import org.json.JSONObject</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(JSONArray) fEJsonArray = JSONArray()
+    for (jsonObj in jsonArray) {
+        fEJsonArray.
+            fEResultArray.add(&quot;{ \&quot;movie_id\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.id.toString() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;title\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.title.toString() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;poster_image_url\&quot; : \&quot;&quot; + &quot;https://image.tmdb.org/t/p/w200/&quot; + resp.results?.get(index = i)?.poster_path.toString() + &quot;\&quot;,&quot; +
+//                           &quot;\&quot;popularity_summary\&quot; : \&quot;&quot; + (resp.results?.get(index = i)?.popularity ?: 0).toString().toFloat() / (resp.results?.get(index = i)?.vote_count ?: 0).toString().toFloat() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;popularity_summary\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.popularity.toString() + &quot; out of &quot; + resp.results?.get(index = i)?.vote_count.toString() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;overview\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.overview.toString() + &quot;\&quot;}&quot;
+            )
+            i += 1;
+        }</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for (jsonObj in jsonArray) {
+            fEResultArray.add(&quot;{ \&quot;movie_id\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.id.toString() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;title\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.title.toString() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;poster_image_url\&quot; : \&quot;&quot; + &quot;https://image.tmdb.org/t/p/w200/&quot; + resp.results?.get(index = i)?.poster_path.toString() + &quot;\&quot;,&quot; +
+//                           &quot;\&quot;popularity_summary\&quot; : \&quot;&quot; + (resp.results?.get(index = i)?.popularity ?: 0).toString().toFloat() / (resp.results?.get(index = i)?.vote_count ?: 0).toString().toFloat() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;popularity_summary\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.popularity.toString() + &quot; out of &quot; + resp.results?.get(index = i)?.vote_count.toString() + &quot;\&quot;,&quot; +
+                    &quot;\&quot;overview\&quot; : \&quot;&quot; + resp.results?.get(index = i)?.overview.toString() + &quot;\&quot;}&quot;
+            )
+            i += 1;
+        }</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>var i = 0;
                 for (jsonObj in jsonArray) {
@@ -1198,22 +1245,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/service/MovieService.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#17#411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="e#0#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/service/MovieService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="47" column="89" lean-forward="false" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
+          <folding>
+            <element signature="e#17#438#0" expanded="true" />
           </folding>
         </state>
       </provider>
