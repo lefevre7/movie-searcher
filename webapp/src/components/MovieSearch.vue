@@ -2,16 +2,16 @@
 
   <div class="movie-search">
     <div>
-      <h1>TMDB Movies</h1>
+      <h1>TMDB Movie Search</h1>
       <input type="text" v-model="input.searchTerm" placeholder="Search Term" />
       <button v-on:click="search()">Search</button>
       <br />
       <br />
+      <p>{{results}}</p>
       <div class="columns">
          <div class="column">
             <movie-component v-for="movie in movies" :movie="movie" :key="movie.movie_id"/>
          </div>
-         <p>{{results}}</p>
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@ export default {
           'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept' }
       }).then(result => {
         this.movies = result.data
-        this.results = 'Max of 10 results'
+        this.results = 'There are ' + result.data.length + ' results'
       }, error => {
         console.error(error)
       })

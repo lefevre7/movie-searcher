@@ -1,3 +1,4 @@
+import com.typesafe.config.ConfigFactory
 import io.ktor.application.*
 import io.ktor.features.CORS
 import io.ktor.http.HttpHeaders
@@ -30,11 +31,10 @@ fun Application.module() {
         anyHost()
         allowCredentials = true
         maxAge = Duration.ofDays(1)
-
     }
 
 }
 
 fun main(args: Array<String>) {
-    embeddedServer(Netty, 8081, watchPaths = listOf("MainKt"), module = Application::module).start()
+    embeddedServer(Netty, ConfigFactory.load("application.conf").getInt("ktor.deployment.port"), watchPaths = listOf("MainKt"), module = Application::module).start()
 }
