@@ -102,7 +102,7 @@ window.onload = function () {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add "scoped" attribute to limit CSS to this template only -->
 <style>
 h1, h2 {
   font-weight: normal;
