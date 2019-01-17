@@ -38,6 +38,8 @@ Vue.component('movie-component', {
                 <strong>{{movie.title}}</strong>
                 <br>
                 <small>{{movie.popularity_summary}}</small>
+                <br>
+                <br>
               </p>
             </div>
           </div>
@@ -115,6 +117,12 @@ li {
 
 .rows .movie {
   display: inline-block;
+}
+
+input, button {
+  font-size: 130%;
+  line-height: 1.5;
+  padding-left: 5px;
 }
 
 .loader {
