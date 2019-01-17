@@ -16,7 +16,7 @@ class MovieService {
     val logger = LoggerFactory.getLogger(MovieService::class.java)
     val conf = ConfigFactory.load("application.conf")
 
-    //todo tests
+    //todo test with mockito, okhttp, and retrofit to enqueue responses and not make live calls - timeout test
     fun getResults(movieName: String): String {
         logger.debug("Making tmdb call.")
         val result = khttp.get(
@@ -30,10 +30,9 @@ class MovieService {
         if (result.statusCode.equals(200))
             return transformResults(result)
         else {
-            logger.error("")
+            logger.error("Error, status code is: " + result.statusCode)
             throw MovieSearchException("Error, status code is: " + result.statusCode)
         }
-
     }
 
     fun transformResults(result: Response): String {
